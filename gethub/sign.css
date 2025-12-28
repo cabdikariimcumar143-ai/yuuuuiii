@@ -1,0 +1,41 @@
+*{
+  padding: 0px;
+  margin: 0;
+}
+
+.row{
+  display: flex;
+  margin-top: 30px;
+}
+
+.col{
+  flex-basis: 50%;
+}
+
+.text{
+  width: 70%;
+  padding: 12px 20px;
+  margin-top: 8px;
+  margin-left: 25px;
+  border: 2px solid red;
+}
+
+.label{
+  color: blue;
+  font-size: 22px;
+  margin-top: 10px;
+  margin-left: 25px;
+}
+
+.radio{
+  margin-top: 10px;
+  margin-left: 25px;
+}
+
+.btn{
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  margin: 10px 25px;
+}

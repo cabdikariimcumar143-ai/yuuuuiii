@@ -1,0 +1,153 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Body */
+body {
+    background-color: #e8fff5;
+    color: #222;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background: white;
+}
+
+.navbar nav a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.btn-primary {
+    background: #0bb783;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* Hero */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    background: linear-gradient(135deg, #10d7a2, #0bb783);
+    color: white;
+}
+
+.hero-text {
+    max-width: 500px;
+}
+
+.hero-text h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.hero-text p {
+    margin-bottom: 20px;
+}
+
+.btn-secondary {
+    background: white;
+    color: #0bb783;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* Hero Card */
+.hero-card {
+    background: white;
+    color: #333;
+    padding: 30px;
+    border-radius: 12px;
+    width: 250px;
+}
+
+.big-number {
+    font-size: 28px;
+    margin: 10px 0;
+}
+
+.growth {
+    color: green;
+}
+
+/* Trusted */
+.trusted {
+    padding: 50px;
+    text-align: center;
+}
+
+.logos span {
+    margin: 0 15px;
+    font-weight: bold;
+    color: #555;
+}
+
+/* Products */
+.products {
+    padding: 60px;
+    background: white;
+}
+
+.products h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.product-card {
+    background: #f4fdf9;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+/* Analytics */
+.analytics {
+    display: flex;
+    gap: 20px;
+    padding: 60px;
+}
+
+.analytics-card {
+    flex: 1;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+.highlight {
+    background: linear-gradient(135deg, #10d7a2, #0bb783);
+    color: white;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: #0bb783;
+    color: white;
+}
